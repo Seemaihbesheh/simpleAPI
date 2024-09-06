@@ -1,0 +1,13 @@
+{
+  //run :npx ts-node src/index.ts
+  "compilerOptions": {
+    "target": "es6",                  // Use ES6 features
+    "module": "commonjs",              // For Node.js module system
+    "outDir": "./dist",                // Output directory for compiled JavaScript files
+    "rootDir": "./src",                // Source directory for TypeScript files
+    "strict": true,                    // Enable strict type-checking options
+    "esModuleInterop": true            // Allow import syntax for CommonJS modules
+  },
+  "include": ["src"],                  // Specify which files should be compiled
+  "exclude": ["node_modules"]          // Ignore node_modules during compilation
+}
